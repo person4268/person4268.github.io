@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <script src="/analytics.js"></script>
+    <title>slope lmao</title>
+    <script src="slope-noads.js"></script>
+    <script src="Build/game.js"></script>
+    <style>
+      body { margin: 0; overflow:hidden; }
+      #gameContainer { width: 100vw; height: 100vh; }
+      canvas { width: 100%; height: 100%; }
+    </style>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/slope_27Sept.json");
+    </script>
+  </head>
+
+  <body>
+    <div id="gameContainer"></div>
+  </body>
+
+</html>
